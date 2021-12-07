@@ -1,8 +1,14 @@
+import Head from "next/head";
 const AboutPage = () => {
 	return (
-		<main>
-			<h1>About</h1>
-		</main>
+   <>
+     <Head>
+				<title>About - My Blog</title>
+			</Head>
+      <main>
+        <h1>About</h1>
+      </main>
+   </>
 	);
 };
 
