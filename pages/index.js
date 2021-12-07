@@ -1,18 +1,10 @@
-import Link from "next/link";
+import Navbar from "../components/NavBar";
 
 const HomePage = () => {
 	return (
 		<>
 			<header>
-				<nav>
-					<ul>
-						<li>
-							<Link href="/about">
-								<a>About</a>
-							</Link>
-						</li>
-					</ul>
-				</nav>
+				<Navbar />
 			</header>
 			<main>
 				<h1>My Blog</h1>
